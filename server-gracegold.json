@@ -1,0 +1,12 @@
+{
+    "app":{
+        "cfengine":"lucee"
+    },
+    "name":"gracegold",
+    "web":{
+        "host":"69.28.94.28",
+        "http":{
+            "port":"80"
+        }
+    }
+}
