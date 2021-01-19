@@ -9,9 +9,9 @@ component {
         class: 'com.mysql.cj.jdbc.Driver'
       , bundleName: 'com.mysql.cj'
       , bundleVersion: '8.0.19'
-      , connectionString: 'jdbc:mysql://69.28.94.28:3306/ProductFeed?characterEncoding=UTF-8&verifyServerCertificate=false&tinyInt1isBit=true&serverTimezone=America/New_York&autoReconnect=true&useSSL=false&maxReconnects=3&jdbcCompliantTruncation=false&useOldAliasMetadataBehavior=false&allowMultiQueries=true&useLegacyDatetimeCode=true'
+      , connectionString: 'jdbc:mysql://69.28.94.28:3306/gracegold?characterEncoding=UTF-8&verifyServerCertificate=false&tinyInt1isBit=true&serverTimezone=America/New_York&autoReconnect=true&useSSL=false&maxReconnects=3&jdbcCompliantTruncation=false&useOldAliasMetadataBehavior=false&allowMultiQueries=true&useLegacyDatetimeCode=true'
       , username: 'webadmin'
-      , password: "encrypted:d2dc64ac2e5a02410c56bc90a6b43056135671de82e23f994432904bcb017e08"
+      , password: "encrypted:2c38f4db853b2bdd4ff784e623035f03ad8b6eb36f4acad86a5c22a261a9af11"
       
       // optional settings
       , connectionLimit:100 // default:-1
@@ -22,7 +22,7 @@ component {
     
     this.defaultDatasource= this.datasources["productfeed"]; //alias for this.datasource
     this.datasource = this.datasources["productfeed"]; // Name of the data source from which the query retrieves data. 
-    
+
     //Temp Storage
     this.clientManagement = true; // Whether the application supports Client scope variables. 
     this.clientStorage = this.datasource; //cookie||registry||datasource // Where Client variables are stored; can be cookie, registry, or the name of a data source. 	
